@@ -2,9 +2,44 @@
 
 > Package changelog.
 
-<section class="release" id="v0.0.1">
+<section class="release" id="unreleased">
 
-## 0.0.1 (2026-02-08)
+## Unreleased (2026-03-22)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`a57b8ad`](https://github.com/stdlib-js/stdlib/commit/a57b8ad76d770e40902fea6f32f5e7ed7ae4d9fb) - **bench:** refactor to use string interpolation in `blas/base/ggemm` [(#10427)](https://github.com/stdlib-js/stdlib/pull/10427) _(by Shubham, Athan Reines, stdlib-bot)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Shubham
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.1.1">
+
+## 0.1.1 (2026-02-08)
 
 <section class="features">
 
