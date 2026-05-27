@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-26)
+## Unreleased (2026-05-27)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`95a8c41`](https://github.com/stdlib-js/stdlib/commit/95a8c41a2a5313aea289e722bed88bc888454233) - use correct argument value in error message and propagate JSDoc fixes to sibling packages [(#12302)](https://github.com/stdlib-js/stdlib/pull/12302)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`95a8c41`](https://github.com/stdlib-js/stdlib/commit/95a8c41a2a5313aea289e722bed88bc888454233) - **fix:** use correct argument value in error message and propagate JSDoc fixes to sibling packages [(#12302)](https://github.com/stdlib-js/stdlib/pull/12302) _(by Philipp Burckhardt)_
 -   [`04fe53b`](https://github.com/stdlib-js/stdlib/commit/04fe53bd9b6e5c08bce0053ab34a212005320a76) - **refactor:** replace `isMatrixTranspose` with `resolveStr` in `blas/base/ggemm` [(#12281)](https://github.com/stdlib-js/stdlib/pull/12281) _(by Kaustubh Patange)_
 -   [`fc3275c`](https://github.com/stdlib-js/stdlib/commit/fc3275c0cf47be38f09963fa95322cecf614348d) - **test:** add alpha & beta tests for `blas/base/ggemm` [(#12194)](https://github.com/stdlib-js/stdlib/pull/12194) _(by Kaustubh Patange)_
 -   [`a57b8ad`](https://github.com/stdlib-js/stdlib/commit/a57b8ad76d770e40902fea6f32f5e7ed7ae4d9fb) - **bench:** refactor to use string interpolation in `blas/base/ggemm` [(#10427)](https://github.com/stdlib-js/stdlib/pull/10427) _(by Shubham, Athan Reines, stdlib-bot)_
@@ -26,10 +37,11 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Kaustubh Patange
+-   Philipp Burckhardt
 -   Shubham
 
 </section>
