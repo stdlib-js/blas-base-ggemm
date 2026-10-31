@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-01)
+## Unreleased (2026-10-31)
 
 <section class="bug-fixes">
 
 ### Bug Fixes
 
+-   [`e3f60dd`](https://github.com/stdlib-js/stdlib/commit/e3f60dd4c8366eb9c7f7d4885b1c3b391dacf1a8) - use resolved transpose operations when validating leading dimensions in `blas/base/*gemm` [(#16386)](https://github.com/stdlib-js/stdlib/pull/16386)
 -   [`95a8c41`](https://github.com/stdlib-js/stdlib/commit/95a8c41a2a5313aea289e722bed88bc888454233) - use correct argument value in error message and propagate JSDoc fixes to sibling packages [(#12302)](https://github.com/stdlib-js/stdlib/pull/12302)
 
 </section>
@@ -22,6 +23,7 @@
 
 <details>
 
+-   [`e3f60dd`](https://github.com/stdlib-js/stdlib/commit/e3f60dd4c8366eb9c7f7d4885b1c3b391dacf1a8) - **fix:** use resolved transpose operations when validating leading dimensions in `blas/base/*gemm` [(#16386)](https://github.com/stdlib-js/stdlib/pull/16386) _(by Kaustubh Patange)_
 -   [`95a8c41`](https://github.com/stdlib-js/stdlib/commit/95a8c41a2a5313aea289e722bed88bc888454233) - **fix:** use correct argument value in error message and propagate JSDoc fixes to sibling packages [(#12302)](https://github.com/stdlib-js/stdlib/pull/12302) _(by Philipp Burckhardt)_
 -   [`04fe53b`](https://github.com/stdlib-js/stdlib/commit/04fe53bd9b6e5c08bce0053ab34a212005320a76) - **refactor:** replace `isMatrixTranspose` with `resolveStr` in `blas/base/ggemm` [(#12281)](https://github.com/stdlib-js/stdlib/pull/12281) _(by Kaustubh Patange)_
 -   [`fc3275c`](https://github.com/stdlib-js/stdlib/commit/fc3275c0cf47be38f09963fa95322cecf614348d) - **test:** add alpha & beta tests for `blas/base/ggemm` [(#12194)](https://github.com/stdlib-js/stdlib/pull/12194) _(by Kaustubh Patange)_
